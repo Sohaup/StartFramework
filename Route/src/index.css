@@ -1,0 +1,8 @@
+:root {
+  --main-color:rgb(26,188,156);
+  --layout-color:rgb(44,62,80);
+  --footer-foot-color:rgb(26,37,47);
+  --light:white;
+  --dark:black;
+  --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
