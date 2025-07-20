@@ -12,13 +12,13 @@ export default function Header() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
         <li class="nav-item">
-          <NavLink className="nav-link text-light fw-bold transition" aria-current="page" to={"/about"}>About</NavLink>
+          <NavLink className="nav-link text-light fw-bold transition w-fit-content" aria-current="page" to={"/about"}>About</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink className="nav-link text-light fw-bold transition" to={"/portefolio"}>Portefolio</NavLink>
+          <NavLink className="nav-link text-light fw-bold transition w-fit-content" to={"/portefolio"}>Portefolio</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink className="nav-link text-light fw-bold transition" to={"/contact"}>Contact</NavLink>
+          <NavLink className="nav-link text-light fw-bold transition w-fit-content" to={"/contact"}>Contact</NavLink>
         </li>        
         </ul>
     </div>
