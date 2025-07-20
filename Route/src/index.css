@@ -6,3 +6,23 @@
   --dark:black;
   --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-layout {
+  background-color: var(--layout-color);
+}
+
+.active {
+  background-color: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.transition {
+  transition: .8s;
+}
