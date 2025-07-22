@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-     <section className='d-flex flex-column align-items-center justify-content-center gap-1  py-5 w-75 mx-auto '>            
+     <section className='d-flex flex-column align-items-center justify-content-center gap-1   w-75 mx-auto '>            
             <div className="details text-light text-center ">
                 <h1 className='header display-5 fw-bolder'>
                     about component
