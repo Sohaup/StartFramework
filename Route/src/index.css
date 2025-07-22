@@ -15,6 +15,7 @@
 
 body {
   font-family: var(--main-font);
+  background-color: var(--main-color);
 }
 
 .bg-layout {
@@ -56,3 +57,38 @@ body {
 .bg-foot {
   background-color: var(--footer-foot-color);
 }
+
+/* home utilities  */
+.header {
+  position: relative; 
+}
+
+.header i {
+  position: absolute;
+  bottom: -17px;
+  left: 45%;
+  z-index: 20; 
+  
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 100px;
+  right: 100px;
+  background-color: var(--light);
+  height: 5px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 40%;  
+  background-color: var(--main-color);
+  height: 5px;
+  width: 100px;
+  z-index: 10;
+}
+
