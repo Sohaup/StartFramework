@@ -105,17 +105,17 @@ section {
 }
 
 /* section contact style */
-.contact {
+.contact , .portefolio {
   background-color: var(--light);
 }
 
-.contact .header {
+.contact .header  , .portefolio .header{
   position: relative; 
   width: fit-content;
   margin-inline: auto;
 }
 
-.contact .header i {
+.contact .header i , .portefolio .header i {
   position: absolute;
   bottom: -17px;
   left: 45%;
@@ -123,7 +123,7 @@ section {
   
 }
 
-.contact .header::after {
+.contact .header::after , .portefolio .header::after  {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -133,7 +133,7 @@ section {
   height: 5px;
 }
 
-.contact .header::before {
+.contact .header::before , .portefolio .header::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -167,4 +167,29 @@ section {
 .form-control:focus {
   box-shadow: none;
   border-bottom: 1px solid var(--secondary);
+}
+
+/* portefolio section style */
+.portefolio .img {
+  position: relative;  
+}
+.img .wrapper {
+  position: absolute;
+  inset: 0;
+  background-color: var(--main-color);
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .8s;
+  opacity: 0;
+}
+
+.img .wrapper i {
+    font-size: 5rem;
+    color: var(--light);
+}
+
+.img:hover .wrapper {
+  opacity: 1;
 }

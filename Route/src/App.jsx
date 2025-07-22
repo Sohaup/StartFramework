@@ -8,13 +8,14 @@ import MainLayout from './layouts/MainLayout/MainLayout'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Portefolio from './components/Portefolio/Portefolio'
 
 
 const routes = createBrowserRouter([
     {path:"/" , element:<MainLayout/> , children: [
     {index:true , element:<Home/>} ,     
     {path:"about" , element:<About/>} , 
-    {path:"Portefolio" , element:<h1>Portefolio</h1>},
+    {path:"Portefolio" , element:<Portefolio/>},
     {path:"contact" , element:<Contact/>}
   ]}
 ])
