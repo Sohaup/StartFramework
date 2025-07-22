@@ -8,9 +8,9 @@ export default function MainLayout() {
    <>
    <Header/>
 
-   <div className='pt-5 mt-5'>
+   <main >
     <Outlet/>
-   </div>
+   </main>
 
    <Footer/>
    </>
