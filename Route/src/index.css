@@ -18,6 +18,10 @@ body {
   background-color: var(--main-color);
 }
 
+section {
+  min-height: 50vh;
+}
+
 .bg-layout {
   background-color: var(--layout-color);
 }
@@ -40,6 +44,7 @@ body {
 
 .navbar { 
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  z-index: 1000;
 }
 
 /* footer utilies */
@@ -61,6 +66,8 @@ body {
 /* home utilities  */
 .header {
   position: relative; 
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .header i {
@@ -75,8 +82,8 @@ body {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 100px;
-  right: 100px;
+  left: 20%;
+  right: 20%;
   background-color: var(--light);
   height: 5px;
 }
@@ -85,10 +92,10 @@ body {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 40%;  
+  left: 42%;  
   background-color: var(--main-color);
   height: 5px;
-  width: 100px;
+  width: 10%;
   z-index: 10;
 }
 

@@ -6,12 +6,13 @@ import Header from './components/Header/Header'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout/MainLayout'
 import Home from './components/Home/Home'
+import About from './components/About/About'
 
 
 const routes = createBrowserRouter([
     {path:"/" , element:<MainLayout/> , children: [
     {index:true , element:<Home/>} ,     
-    {path:"about" , element:<h1>About</h1>} , 
+    {path:"about" , element:<About/>} , 
     {path:"Portefolio" , element:<h1>Portefolio</h1>},
     {path:"contact" , element:<h1 >Contact</h1>}
   ]}
